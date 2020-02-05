@@ -19,6 +19,10 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " 设置主题
 Plug 'ajmwagar/vim-deus'
+
+" 设置lightline
+Plug 'itchyny/lightline.vim'
+
 call plug#end()
 
 " 设置行号
