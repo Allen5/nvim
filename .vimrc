@@ -21,11 +21,11 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'ajmwagar/vim-deus'
 
 " 设置lightline
-" Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
 
 " 设置airline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
 " Plug 'vim-powerline/vim-powerline'
 
 
@@ -42,4 +42,5 @@ set cursorline
 colors deus
 
 " 设置airline powerline字体支持
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 1
+
