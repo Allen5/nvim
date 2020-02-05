@@ -17,7 +17,16 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
+" 设置主题
+Plug 'ajmwagar/vim-deus'
+call plug#end()
+
 " 设置行号
 set number
+" 设置空白字符的视觉提示
+set list listchars=extends:❯,precedes:❮,tab:▸\ ,trail:˽
+" 高亮当前行
+set cursorline
 " Initialize plugin system
-call plug#end()
+" 设置主题
+colors deus
